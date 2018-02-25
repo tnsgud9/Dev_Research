@@ -1,2 +1,6 @@
-# Dev_Research
-# Dev_Research
+안녕하세요! Hello World!
+============
+처음 Git을 사용하기 시작했습니다. ㅎㅎ
+Dev_Research 폴더는 제가 프로그래밍 언어를 배우며 그동안 코딩하고 개발한 스크립트들을 모아놓은 곳 입니다.
+
+현재는 C, C#, Unity 위주로 업데이트 할 계획입니다.
