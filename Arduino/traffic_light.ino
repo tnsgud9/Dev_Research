@@ -1,5 +1,4 @@
-//아두이노 LED ON OFF
-//빨노초 신호등 신호처리 코드
+//아두이노 LED 자동차 신호등 횡단보도 신호등
 
 void setup() {
   // put your setup code here, to run once:
