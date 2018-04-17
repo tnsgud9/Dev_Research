@@ -8,11 +8,16 @@
 tx 송신 라인 rx 수신 라인
 */
 
+#include <SoftwareSerial.h>
+
+SoftwareSerial BTSerial(1 , 0);
+
 bool grap;
 
 void setup()
 {
 	Serial.begin(9600);
+	BTSerial.begin(9600);
 
 	//이동 컨트롤
 	pinMode(13, INPUT);
@@ -33,6 +38,7 @@ void setup()
 
 void loop()
 {
-
+	if (BTSerial.available())
+		Serial.write(BTSerial.read());
 
 }
