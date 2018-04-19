@@ -41,4 +41,6 @@ void loop()
 	if (BTSerial.available())
 		Serial.write(BTSerial.read());
 
+	if(digitalRead(13)==true)
+		AnalogWrite(motorPin, speed);
 }
