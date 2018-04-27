@@ -4,6 +4,10 @@
  Author:	user
 
 */
+#include <SoftwareSerial.h>
+
+
+SoftwareSerial mySerial(1, 0);
 
 int F_sensor_0;
 int F_sensor_1;
@@ -32,11 +36,30 @@ void setup() {
 	F_sensor_2 = 0;
 	F_sensor_3 = 0;
 	F_sensor_4 = 0;
+
+	while (1) //시리얼 통신 연결
+	{
+		if (!Serial)
+			continue;
+		else
+		{
+			Serial.print("Serial Connected.");
+			break;
+		}
+	}
+
+
 }
 
 // the loop function runs over and over again until power down or reset
 void loop() {
-  
+
+	if (mySerial.available())
+	{
+
+	}
+
+
 }
 
 
