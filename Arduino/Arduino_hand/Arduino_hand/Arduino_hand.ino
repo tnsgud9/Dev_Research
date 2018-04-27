@@ -5,8 +5,19 @@
 
 */
 
+int F_sensor_0;
+int F_sensor_1;
+int F_sensor_2;
+int F_sensor_3;
+int F_sensor_4;
+
+void start_r();
+
 // the setup function runs once when you press reset or power the board
 void setup() {
+
+	start_r();
+
 	Serial.begin(9600);
 	//servo line
 	pinMode(6, OUTPUT);
@@ -19,4 +30,19 @@ void setup() {
 // the loop function runs over and over again until power down or reset
 void loop() {
   
+}
+
+
+
+
+
+
+
+void start_r()
+{
+	F_sensor_0 = 0;
+	F_sensor_1 = 0;
+	F_sensor_2 = 0;
+	F_sensor_3 = 0;
+	F_sensor_4 = 0;
 }
