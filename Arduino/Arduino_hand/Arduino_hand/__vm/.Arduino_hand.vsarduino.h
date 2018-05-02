@@ -78,5 +78,6 @@ typedef unsigned char uint8_t;
 #define pgm_read_ptr(address_short)   short()
 
 #include "Arduino_hand.ino"
+#include "flex_control.ino"
 #endif
 #endif

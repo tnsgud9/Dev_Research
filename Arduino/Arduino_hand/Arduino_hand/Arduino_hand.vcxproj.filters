@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Arduino_hand.ino" />
+    <None Include="flex_control.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Arduino_hand.vsarduino.h">

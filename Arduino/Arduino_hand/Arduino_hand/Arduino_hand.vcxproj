@@ -80,6 +80,9 @@
     <None Include="Arduino_hand.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="flex_control.ino">
+      <FileType>CppCode</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.Arduino_hand.vsarduino.h" />
