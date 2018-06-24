@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {  font-family: 'NanumSquareB';  src: url(assets\fonts\NanumSquareB.ttf) format('truetype');}
+@font-face {  font-family: 'NanumSquareEB';  src: url(assets\fonts\NanumSquareEB.ttf) format('truetype');}
+@font-face {  font-family: 'NanumSquareL';  src: url(assets\fonts\NanumSquareL.ttf) format('truetype');}
+@font-face {  font-family: 'NanumSquareR';  src: url(assets\fonts\NanumSquareR.ttf) format('truetype');}
+
+#squreB{  font-family:NanumSquareB;}
+#squreEB{  font-family:NanumSquareEB;}
+#squreL {  font-family: NanumSquareL;}
+#squreR{  font-family:NanumSquareR;}

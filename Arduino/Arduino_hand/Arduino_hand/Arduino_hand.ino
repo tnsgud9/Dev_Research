@@ -20,7 +20,6 @@ int F_sensor_4;
 void setup() {
 
 
-
 	Serial.begin(9600);
 
 	//servo line
@@ -57,7 +56,7 @@ void loop() {
 	if (mySerial.available())
 	{
 		F_sensor_0 = Serial.
-		F_sensor_1 = .analogRead(A1);
+		F_sensor_1 = analogRead(A1);
 		F_sensor_2 = analogRead(A2);
 		F_sensor_3 = analogRead(A3);
 		F_sensor_4 = analogRead(A4);
