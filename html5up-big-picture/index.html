@@ -12,13 +12,17 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+		<style>
+			highlight{background-color: #000000}
+			highlight_space{letter-spacing:-30px}
+		</style>
 	</head>
 
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
-				<h1>꿈을 이루고 싶은 마음에 집착하면 걱정과 두려움이 쌓인다.</h1>
+				<h1>프론트엔드 개발자</h1>
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
@@ -31,12 +35,16 @@
 			</header>
 
 		<!-- Intro -->
-			<section id="intro" class="main style1 dark fullscreen">
-				<div class="content">
+			<section class="main style1 dark fullscreen">
+				<video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+					<source src="intro.mp4">
+
+				</video>
+				<div class="content" id="shadow1">
 					<header>
-						<h2><a style="font-family:Consolas;">Hello;</a></h2>
+						<h2 style= "font-family:Consolas;"><highlight><highlist_space style="letter-spacing:  -27px">&nbsp;</highlist_space>hello;<highlight_space style="letter-spacing:-35px">&nbsp;</highlight_space></highlight></h2>
 					</header>
-					<p>안녕하세요! <strong>자유로운 초보개발자</strong> 이순형입니다.</p>
+					<p><highlight>안녕하세요! <strong>자유로운 초보개발자</strong> 이순형입니다.</highlight></p>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
@@ -47,11 +55,9 @@
 			<section id="one" class="main style2 right dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>What I Do</h2>
+						<h2>안녕하세요.</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>나는 송파공업고등학교에 재학중인 학생이며 SW, HW에 관심이 많으며</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -60,7 +66,7 @@
 			<section id="two" class="main style2 left dark fullscreen">
 				<div class="content box style2">
 					<header>
-						<h2>Who I Am</h2>
+						<h2>무엇을 하나요?</h2>
 					</header>
 					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,

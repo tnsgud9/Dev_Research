@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: nanumgothic;
+	font-family: "nanumgothic", "sans-serif" ;
 	vertical-align: baseline;}
 
 
@@ -1941,6 +1941,7 @@ input, select, textarea {
 			justify-content: center;
 			text-align: center;
 			padding: 3em 0 3em 0;
+			overflow:hidden;
 		}
 
 			.main.style1 h2 {
@@ -2238,6 +2239,17 @@ input, select, textarea {
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+    #video {
+	position: absolute;
+	top: -100px;
+	left: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1;
+	overflow: hidden;
+}
 
 /* One */
 
