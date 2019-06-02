@@ -9,9 +9,9 @@ int main()
 {
 	int n; //몇번 입력 받을지
 	cin >> n;
-	vector<int> stair(n + 4); // vector로 동적 배열 생성
-	vector<int> dp(n + 4);
-	for (int i = 1+3; i <= n+3; i++) cin >> stair[i];
+	vector<int> stair(n+6); // vector로 동적 배열 생성
+	vector<int> dp(n+6);
+	for (int i = 1; i <= n; i++) cin >> stair[i];
 
 	for (int i = 1+3; i <= n+3; i++)
 	{
