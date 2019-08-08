@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ARDUnity/Examples/LED/Analog/CircuitTest(Analog LED).unity
+  isLoaded: 1
+  isActive: 1

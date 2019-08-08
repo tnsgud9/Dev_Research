@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_2D_Indie_game.601172608.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Documents\GitHub\Unity\2D_Indie_game" t="IncludeRecursive">
+      <e p="2D_Indie_game.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="#Scripts" t="Include">
+          <e p="Carmera_system.cs" t="Include" />
+          <e p="Game_manager.cs" t="Include" />
+          <e p="mouse_input1.cs" t="Include" />
+          <e p="Player_system1.cs" t="Include" />
+          <e p="Test" t="Include">
+            <e p="mouse_input.cs" t="Include" />
+            <e p="mouse_input2.cs" t="Include" />
+            <e p="mouse_input_test.cs" t="Include" />
+            <e p="Player_system.cs" t="Include" />
+            <e p="Player_system2.cs" t="Include" />
+          </e>
+          <e p="Testing1" t="Include">
+            <e p="car_follow.cs" t="Include" />
+            <e p="input_mouse.cs" t="Include" />
+          </e>
+          <e p="Wall_system.cs" t="Include" />
+        </e>
+        <e p="readme.txt" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

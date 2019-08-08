@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\user\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Arduino_IOT_project.-711111268.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\Documents\GitHub\Unity\Arduino_IOT_project" t="IncludeFlat">
+      <e p="Arduino_IOT_project.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
